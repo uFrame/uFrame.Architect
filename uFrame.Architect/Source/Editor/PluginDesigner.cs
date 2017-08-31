@@ -22,7 +22,7 @@ namespace uFrame.Architect.Editor
     {
         static PluginDesigner()
         {
-            InvertApplication.CachedAssembly(typeof(PluginDesigner).Assembly);
+            InvertApplication.CacheAssembly(typeof(PluginDesigner).Assembly);
         }
         public override void Initialize(UFrameContainer container)
         {
